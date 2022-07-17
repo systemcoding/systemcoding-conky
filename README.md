@@ -4,6 +4,14 @@
 
 This is a modified version of [ChrisTitusTech/titus-conky](https://github.com/ChrisTitusTech/titus-conky) that works no matter which Desktop Environment you are using.
 
+## Install:
+``` bash
+git clone https://github.com/systemcoding/systemcoding-conky
+mv systemcoding-conky/.conkyrc $HOME
+```
+## Launch at startup:
+If you are using a Desktop Environment then go into your startup settings and add ```conky``` as a startup app.
+
 ## Dependencies: (For Debian and Ubuntu based distros)
 * lm-sensors
 * conky
